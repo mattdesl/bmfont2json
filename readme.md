@@ -12,7 +12,7 @@ Parses a string (or Node Buffer) that is either XML data (with a root <font> ele
 
 The output looks something like the following JSON. It tries to stay true to the BMFont spec.
 
-```json
+```js
 {
      pages: [
          "sheet_0.png", 
