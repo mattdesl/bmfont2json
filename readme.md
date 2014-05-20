@@ -1,11 +1,11 @@
 BMFont XML/TXT files to JSON output.
 
-```
+```js
 var data = fs.readFileSync('myfile.fnt');
 
 var bmfont2json = require('bmfont2json');
 
-var json = bmfont2json(data);
+var json = JSON.stingify( bmfont2json(data) );
 ```
 
 Parses a string (or Node Buffer) that is either XML data (with a root <font> element), or TXT data (following [Bitmap Font spec](http://www.angelcode.com/products/bmfont/doc/file_format.html)).
