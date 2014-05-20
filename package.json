@@ -1,0 +1,15 @@
+{
+  "name": "bmfont2json",
+  "version": "0.0.0",
+  "description": "converts BMFont TXT and XML files to JSON",
+  "main": "index.js",
+  "dependencies": {
+    "xml2js": "~0.4.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "node test"
+  },
+  "author": "Matt DesLauriers",
+  "license": "MIT"
+}
