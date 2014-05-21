@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 var argv = require('yargs')
 				.usage('Usage: file [options]')
 				.alias('o', 'output')
