@@ -6,7 +6,12 @@
   "dependencies": {
     "xml2js": "~0.4.3"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "yargs": "^1.2.2"
+  },
+  "bin": {
+    "bmfont2json": "./bin/bmfont2json"
+  },
   "scripts": {
     "test": "node test"
   },

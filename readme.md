@@ -33,3 +33,16 @@ The output looks something like the following JSON. It tries to stay true to the
      ]
 }
 ```
+
+## command-line tool
+
+Converts a single file. If no output is provided, it prints to stdout.
+
+```
+Usage:
+    bmfont2json file [options]
+
+Options:
+    -o, --ouput the output path
+    -p, --pretty pretty print the JSON output
+```
