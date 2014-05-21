@@ -13,7 +13,7 @@ paths.forEach(function(p) {
     var f = fs.readFileSync(p);
 
     var result = bmfont(f);
-    assert(result.info.face === 'Nexa Light', 'face exported');
-    assert(result.chars.length === 96, 'chars exported');
-    assert(result.kernings.length === 487, 'kernings exported');
+    assert(result.info.face === 'Nexa Light', 'face parsed');
+    assert(result.chars.length === 96, 'chars parsed');
+    assert(result.kernings.length === 487, 'kernings parsed');
 });
