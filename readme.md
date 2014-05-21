@@ -39,6 +39,9 @@ The output looks something like the following JSON. It tries to stay true to the
 Converts a single file. If no output is provided, it prints to stdout.
 
 ```
+Install
+    npm install bmfont2json -g
+
 Usage:
     bmfont2json file [options]
 
