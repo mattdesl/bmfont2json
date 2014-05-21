@@ -1,14 +1,13 @@
 {
   "name": "bmfont2json",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "converts BMFont TXT and XML files to JSON",
   "main": "index.js",
   "dependencies": {
     "xml2js": "~0.4.3",
     "yargs": "^1.2.2"
   },
-  "devDependencies": {
-  },
+  "devDependencies": {},
   "bin": {
     "bmfont2json": "./bin/bmfont2json"
   },
