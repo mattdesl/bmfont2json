@@ -1,0 +1,151 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/local/bin/node', '/usr/local/bin/npm', 'publish' ]
+2 info using npm@1.4.3
+3 info using node@v0.10.26
+4 verbose publish [ '.' ]
+5 verbose cache add [ '.', null ]
+6 verbose cache add name=undefined spec="." args=[".",null]
+7 verbose parsed url { protocol: null,
+7 verbose parsed url   slashes: null,
+7 verbose parsed url   auth: null,
+7 verbose parsed url   host: null,
+7 verbose parsed url   port: null,
+7 verbose parsed url   hostname: null,
+7 verbose parsed url   hash: null,
+7 verbose parsed url   search: null,
+7 verbose parsed url   query: null,
+7 verbose parsed url   pathname: '.',
+7 verbose parsed url   path: '.',
+7 verbose parsed url   href: '.' }
+8 silly lockFile 3a52ce78- .
+9 verbose lock . /Users/Matt/.npm/3a52ce78-.lock
+10 verbose tar pack [ '/var/folders/38/j6bh2gmj2hlcxzt423vz520w0000gn/T/npm-9343-2TPMJVU0/1400637386040-0.5249322790186852/tmp.tgz',
+10 verbose tar pack   '.' ]
+11 verbose tarball /var/folders/38/j6bh2gmj2hlcxzt423vz520w0000gn/T/npm-9343-2TPMJVU0/1400637386040-0.5249322790186852/tmp.tgz
+12 verbose folder .
+13 info prepublish bmfont2json@0.1.2
+14 silly lockFile 1f1177db-tar tar://.
+15 verbose lock tar://. /Users/Matt/.npm/1f1177db-tar.lock
+16 silly lockFile dfa23ea9-86040-0-5249322790186852-tmp-tgz tar:///var/folders/38/j6bh2gmj2hlcxzt423vz520w0000gn/T/npm-9343-2TPMJVU0/1400637386040-0.5249322790186852/tmp.tgz
+17 verbose lock tar:///var/folders/38/j6bh2gmj2hlcxzt423vz520w0000gn/T/npm-9343-2TPMJVU0/1400637386040-0.5249322790186852/tmp.tgz /Users/Matt/.npm/dfa23ea9-86040-0-5249322790186852-tmp-tgz.lock
+18 silly lockFile 1f1177db-tar tar://.
+19 silly lockFile 1f1177db-tar tar://.
+20 silly lockFile dfa23ea9-86040-0-5249322790186852-tmp-tgz tar:///var/folders/38/j6bh2gmj2hlcxzt423vz520w0000gn/T/npm-9343-2TPMJVU0/1400637386040-0.5249322790186852/tmp.tgz
+21 silly lockFile dfa23ea9-86040-0-5249322790186852-tmp-tgz tar:///var/folders/38/j6bh2gmj2hlcxzt423vz520w0000gn/T/npm-9343-2TPMJVU0/1400637386040-0.5249322790186852/tmp.tgz
+22 verbose tar unpack /var/folders/38/j6bh2gmj2hlcxzt423vz520w0000gn/T/npm-9343-2TPMJVU0/1400637386040-0.5249322790186852/tmp.tgz
+23 silly lockFile 036c1c11-86040-0-5249322790186852-package tar:///var/folders/38/j6bh2gmj2hlcxzt423vz520w0000gn/T/npm-9343-2TPMJVU0/1400637386040-0.5249322790186852/package
+24 verbose lock tar:///var/folders/38/j6bh2gmj2hlcxzt423vz520w0000gn/T/npm-9343-2TPMJVU0/1400637386040-0.5249322790186852/package /Users/Matt/.npm/036c1c11-86040-0-5249322790186852-package.lock
+25 silly lockFile dfa23ea9-86040-0-5249322790186852-tmp-tgz tar:///var/folders/38/j6bh2gmj2hlcxzt423vz520w0000gn/T/npm-9343-2TPMJVU0/1400637386040-0.5249322790186852/tmp.tgz
+26 verbose lock tar:///var/folders/38/j6bh2gmj2hlcxzt423vz520w0000gn/T/npm-9343-2TPMJVU0/1400637386040-0.5249322790186852/tmp.tgz /Users/Matt/.npm/dfa23ea9-86040-0-5249322790186852-tmp-tgz.lock
+27 silly gunzTarPerm modes [ '755', '644' ]
+28 silly gunzTarPerm extractEntry package.json
+29 silly gunzTarPerm extractEntry .npmignore
+30 silly gunzTarPerm extractEntry index.js
+31 silly gunzTarPerm extractEntry test.js
+32 silly gunzTarPerm extractEntry bin/bmfont2json
+33 silly gunzTarPerm extractEntry readme.md
+34 silly gunzTarPerm extractEntry test-files/multipage/Nexa Light-32.fnt
+35 silly gunzTarPerm extractEntry test-files/txt/Nexa Light-32.fnt
+36 silly gunzTarPerm extractEntry test-files/xml/Nexa Light-32.fnt
+37 silly lockFile 036c1c11-86040-0-5249322790186852-package tar:///var/folders/38/j6bh2gmj2hlcxzt423vz520w0000gn/T/npm-9343-2TPMJVU0/1400637386040-0.5249322790186852/package
+38 silly lockFile 036c1c11-86040-0-5249322790186852-package tar:///var/folders/38/j6bh2gmj2hlcxzt423vz520w0000gn/T/npm-9343-2TPMJVU0/1400637386040-0.5249322790186852/package
+39 silly lockFile dfa23ea9-86040-0-5249322790186852-tmp-tgz tar:///var/folders/38/j6bh2gmj2hlcxzt423vz520w0000gn/T/npm-9343-2TPMJVU0/1400637386040-0.5249322790186852/tmp.tgz
+40 silly lockFile dfa23ea9-86040-0-5249322790186852-tmp-tgz tar:///var/folders/38/j6bh2gmj2hlcxzt423vz520w0000gn/T/npm-9343-2TPMJVU0/1400637386040-0.5249322790186852/tmp.tgz
+41 verbose tar pack [ '/Users/Matt/.npm/bmfont2json/0.1.2/package.tgz',
+41 verbose tar pack   '/var/folders/38/j6bh2gmj2hlcxzt423vz520w0000gn/T/npm-9343-2TPMJVU0/1400637386040-0.5249322790186852/package' ]
+42 verbose tarball /Users/Matt/.npm/bmfont2json/0.1.2/package.tgz
+43 verbose folder /var/folders/38/j6bh2gmj2hlcxzt423vz520w0000gn/T/npm-9343-2TPMJVU0/1400637386040-0.5249322790186852/package
+44 silly lockFile 036c1c11-86040-0-5249322790186852-package tar:///var/folders/38/j6bh2gmj2hlcxzt423vz520w0000gn/T/npm-9343-2TPMJVU0/1400637386040-0.5249322790186852/package
+45 verbose lock tar:///var/folders/38/j6bh2gmj2hlcxzt423vz520w0000gn/T/npm-9343-2TPMJVU0/1400637386040-0.5249322790186852/package /Users/Matt/.npm/036c1c11-86040-0-5249322790186852-package.lock
+46 silly lockFile e39f1dbe-pm-bmfont2json-0-1-2-package-tgz tar:///Users/Matt/.npm/bmfont2json/0.1.2/package.tgz
+47 verbose lock tar:///Users/Matt/.npm/bmfont2json/0.1.2/package.tgz /Users/Matt/.npm/e39f1dbe-pm-bmfont2json-0-1-2-package-tgz.lock
+48 silly lockFile 036c1c11-86040-0-5249322790186852-package tar:///var/folders/38/j6bh2gmj2hlcxzt423vz520w0000gn/T/npm-9343-2TPMJVU0/1400637386040-0.5249322790186852/package
+49 silly lockFile 036c1c11-86040-0-5249322790186852-package tar:///var/folders/38/j6bh2gmj2hlcxzt423vz520w0000gn/T/npm-9343-2TPMJVU0/1400637386040-0.5249322790186852/package
+50 silly lockFile e39f1dbe-pm-bmfont2json-0-1-2-package-tgz tar:///Users/Matt/.npm/bmfont2json/0.1.2/package.tgz
+51 silly lockFile e39f1dbe-pm-bmfont2json-0-1-2-package-tgz tar:///Users/Matt/.npm/bmfont2json/0.1.2/package.tgz
+52 silly lockFile 2ee73796-tt-npm-bmfont2json-0-1-2-package /Users/Matt/.npm/bmfont2json/0.1.2/package
+53 verbose lock /Users/Matt/.npm/bmfont2json/0.1.2/package /Users/Matt/.npm/2ee73796-tt-npm-bmfont2json-0-1-2-package.lock
+54 silly lockFile 2ee73796-tt-npm-bmfont2json-0-1-2-package /Users/Matt/.npm/bmfont2json/0.1.2/package
+55 silly lockFile 2ee73796-tt-npm-bmfont2json-0-1-2-package /Users/Matt/.npm/bmfont2json/0.1.2/package
+56 verbose tar unpack /Users/Matt/.npm/bmfont2json/0.1.2/package.tgz
+57 silly lockFile deff3d1f-tt-npm-bmfont2json-0-1-2-package tar:///Users/Matt/.npm/bmfont2json/0.1.2/package
+58 verbose lock tar:///Users/Matt/.npm/bmfont2json/0.1.2/package /Users/Matt/.npm/deff3d1f-tt-npm-bmfont2json-0-1-2-package.lock
+59 silly lockFile e39f1dbe-pm-bmfont2json-0-1-2-package-tgz tar:///Users/Matt/.npm/bmfont2json/0.1.2/package.tgz
+60 verbose lock tar:///Users/Matt/.npm/bmfont2json/0.1.2/package.tgz /Users/Matt/.npm/e39f1dbe-pm-bmfont2json-0-1-2-package-tgz.lock
+61 silly gunzTarPerm modes [ '755', '644' ]
+62 silly gunzTarPerm extractEntry package.json
+63 silly gunzTarPerm extractEntry .npmignore
+64 silly gunzTarPerm extractEntry index.js
+65 silly gunzTarPerm extractEntry test.js
+66 silly gunzTarPerm extractEntry bin/bmfont2json
+67 silly gunzTarPerm extractEntry readme.md
+68 silly gunzTarPerm extractEntry test-files/multipage/Nexa Light-32.fnt
+69 silly gunzTarPerm extractEntry test-files/txt/Nexa Light-32.fnt
+70 silly gunzTarPerm extractEntry test-files/xml/Nexa Light-32.fnt
+71 silly lockFile deff3d1f-tt-npm-bmfont2json-0-1-2-package tar:///Users/Matt/.npm/bmfont2json/0.1.2/package
+72 silly lockFile deff3d1f-tt-npm-bmfont2json-0-1-2-package tar:///Users/Matt/.npm/bmfont2json/0.1.2/package
+73 silly lockFile e39f1dbe-pm-bmfont2json-0-1-2-package-tgz tar:///Users/Matt/.npm/bmfont2json/0.1.2/package.tgz
+74 silly lockFile e39f1dbe-pm-bmfont2json-0-1-2-package-tgz tar:///Users/Matt/.npm/bmfont2json/0.1.2/package.tgz
+75 verbose chmod /Users/Matt/.npm/bmfont2json/0.1.2/package.tgz 644
+76 verbose chown /Users/Matt/.npm/bmfont2json/0.1.2/package.tgz [ 501, 20 ]
+77 silly lockFile 3a52ce78- .
+78 silly lockFile 3a52ce78- .
+79 silly publish { name: 'bmfont2json',
+79 silly publish   version: '0.1.2',
+79 silly publish   description: 'converts BMFont TXT and XML files to JSON',
+79 silly publish   main: 'index.js',
+79 silly publish   dependencies: { xml2js: '~0.4.3' },
+79 silly publish   devDependencies: { yargs: '^1.2.2' },
+79 silly publish   bin: { bmfont2json: './bin/bmfont2json' },
+79 silly publish   scripts: { test: 'node test' },
+79 silly publish   author: { name: 'Matt DesLauriers' },
+79 silly publish   license: 'MIT',
+79 silly publish   repository:
+79 silly publish    { type: 'git',
+79 silly publish      url: 'https://github.com/mattdesl/bmfont2json.git' },
+79 silly publish   keywords:
+79 silly publish    [ 'bmfont',
+79 silly publish      'bitmap',
+79 silly publish      'fonts',
+79 silly publish      'json',
+79 silly publish      'xml',
+79 silly publish      'txt',
+79 silly publish      'angelcode',
+79 silly publish      'angel',
+79 silly publish      'code',
+79 silly publish      'text' ],
+79 silly publish   bugs: { url: 'https://github.com/mattdesl/bmfont2json/issues' },
+79 silly publish   homepage: 'https://github.com/mattdesl/bmfont2json',
+79 silly publish   readme: 'Converts BMFont files (XML/TXT) to JSON objects.\n\n## example\n\n```js\nvar data = fs.readFileSync(\'myfile.fnt\');\n\nvar bmfont2json = require(\'bmfont2json\');\n\nvar json = JSON.stingify( bmfont2json(data) );\n```\n\n\n\nThe function parses a string (or Node Buffer) that is either XML data (with a root <font> element), or TXT data (following [Bitmap Font spec](http://www.angelcode.com/products/bmfont/doc/file_format.html)).\n\nThe output looks something like the following JSON. It tries to stay true to the BMFont spec.\n\n```js\n{\n     pages: [\n         "sheet_0.png", \n         "sheet_1.png"\n     ],\n     chars: [\n         { chnl, height, id, page, width, x, y, xoffset, yoffset, xadvance },\n         ...\n     ],\n     info: { ... },\n     common: { ... },\n     kernings: [\n         { first, second, amount }\n     ]\n}\n```\n\n## command-line tool\n\nConverts a single file. If no output is provided, it prints to stdout.\n\n```\nInstall\n    npm install bmfont2json -g\n\nUsage:\n    bmfont2json file [options]\n\nOptions:\n    -o, --ouput the output path\n    -p, --pretty pretty print the JSON output\n```',
+79 silly publish   readmeFilename: 'readme.md',
+79 silly publish   _id: 'bmfont2json@0.1.2',
+79 silly publish   dist: { shasum: '14b2a21088e77582649ad07d6c1957a59b1f5d32' },
+79 silly publish   _from: '.' }
+80 verbose url raw bmfont2json
+81 verbose url resolving [ 'https://registry.npmjs.org/', './bmfont2json' ]
+82 verbose url resolved https://registry.npmjs.org/bmfont2json
+83 info trying registry request attempt 1 at 21:56:26
+84 http PUT https://registry.npmjs.org/bmfont2json
+85 http 403 https://registry.npmjs.org/bmfont2json
+86 error publish Failed PUT 403
+87 error Error: forbidden cannot modify pre-existing version: 0.1.2
+87 error old={"name":"bmfont2json","version":"0.1.2","description":"converts BMFont TXT and XML files to JSON","main":"index.js","dependencies":{"xml2js":"~0.4.3"},"devDependencies":{"yargs":"^1.2.2"},"bin":{"bmfont2json":"./bin/bmfont2json"},"scripts":{"test":"node test"},"author":{"name":"Matt DesLauriers"},"license":"MIT","repository":{"type":"git","url":"https://github.com/mattdesl/bmfont2json.git"},"keywords":["bmfont","bitmap","fonts","json","xml","txt","angelcode","angel","code","text"],"bugs":{"url":"https://github.com/mattdesl/bmfont2json/issues"},"homepage":"https://github.com/mattdesl/bmfont2json","_id":"bmfont2json@0.1.2","dist":{"shasum":"14b2a21088e77582649ad07d6c1957a59b1f5d32","tarball":"http://registry.npmjs.org/bmfont2json/-/bmfont2json-0.1.2.tgz"},"_from":".","_npmVersion":"1.4.3","_npmUser":{"name":"mattdesl","email":"dave.des@gmail.com"},"maintainers":[{"name":"mattdesl","email":"dave.des@gmail.com"}]}
+87 error new={"name":"bmfont2json","version":"0.1.2","description":"converts BMFont TXT and XML files to JSON","main":"index.js","dependencies":{"xml2js":"~0.4.3"},"devDependencies":{"yargs":"^1.2.2"},"bin":{"bmfont2json":"./bin/bmfont2json"},"scripts":{"test":"node test"},"author":{"name":"Matt DesLauriers"},"license":"MIT","repository":{"type":"git","url":"https://github.com/mattdesl/bmfont2json.git"},"keywords":["bmfont","bitmap","fonts","json","xml","txt","angelcode","angel","code","text"],"bugs":{"url":"https://github.com/mattdesl/bmfont2json/issues"},"homepage":"https://github.com/mattdesl/bmfont2json","readme":"Converts BMFont files (XML/TXT) to JSON objects.\u000a\u000a## example\u000a\u000a```js\u000avar data = fs.readFileSync('myfile.fnt');\u000a\u000avar bmfont2json = require('bmfont2json');\u000a\u000avar json = JSON.stingify( bmfont2json(data) );\u000a```\u000a\u000a\u000a\u000aThe function parses a string (or Node Buffer) that is either XML data (with a root <font> element), or TXT data (following [Bitmap Font spec](http://www.angelcode.com/products/bmfont/doc/file_format.html)).\u000a\u000aThe output looks something like the following JSON. It tries to stay true to the BMFont spec.\u000a\u000a```js\u000a{\u000a     pages: [\u000a         \"sheet_0.png\", \u000a         \"sheet_1.png\"\u000a     ],\u000a     chars: [\u000a         { chnl, height, id, page, width, x, y, xoffset, yoffset, xadvance },\u000a         ...\u000a     ],\u000a     info: { ... },\u000a     common: { ... },\u000a     kernings: [\u000a         { first, second, amount }\u000a     ]\u000a}\u000a```\u000a\u000a## command-line tool\u000a\u000aConverts a single file. If no output is provided, it prints to stdout.\u000a\u000a```\u000aInstall\u000a    npm install bmfont2json -g\u000a\u000aUsage:\u000a    bmfont2json file [options]\u000a\u000aOptions:\u000a    -o, --ouput the output path\u000a    -p, --pretty pretty print the JSON output\u000a```","readmeFilename":"readme.md","_id":"bmfont2json@0.1.2","dist":{"shasum":"14b2a21088e77582649ad07d6c1957a59b1f5d32","tarball":"http://registry.npmjs.org/bmfont2json/-/bmfont2json-0.1.2.tgz"},"_from":".","_npmVersion":"1.4.3","_npmUser":{"name":"mattdesl","email":"dave.des@gmail.com"},"maintainers":[{"name":"mattdesl","email":"dave.des@gmail.com"}]}: bmfont2json
+87 error     at RegClient.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:237:14)
+87 error     at Request.self.callback (/usr/local/lib/node_modules/npm/node_modules/request/request.js:123:22)
+87 error     at Request.EventEmitter.emit (events.js:98:17)
+87 error     at Request.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/request/request.js:893:14)
+87 error     at Request.EventEmitter.emit (events.js:117:20)
+87 error     at IncomingMessage.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/request/request.js:844:12)
+87 error     at IncomingMessage.EventEmitter.emit (events.js:117:20)
+87 error     at _stream_readable.js:920:16
+87 error     at process._tickCallback (node.js:415:13)
+88 error If you need help, you may report this *entire* log,
+88 error including the npm and node versions, at:
+88 error     <http://github.com/npm/npm/issues>
+89 error System Darwin 12.4.0
+90 error command "/usr/local/bin/node" "/usr/local/bin/npm" "publish"
+91 error cwd /projects/fontpath-modules/bmfont2json
+92 error node -v v0.10.26
+93 error npm -v 1.4.3
+94 verbose exit [ 1, true ]
