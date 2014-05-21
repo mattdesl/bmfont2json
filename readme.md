@@ -1,18 +1,22 @@
-Converts BMFont files (XML/TXT) to JSON objects.
+Parses BMFont files (XML/TXT) to JSON objects, with a command-line tool for easy conversion.
 
 ## example
 
 ```js
-var data = fs.readFileSync('myfile.fnt');
-
+var fs = require('fs');
 var bmfont2json = require('bmfont2json');
 
-var json = JSON.stingify( bmfont2json(data) );
+//grab the Buffer or a string of our data
+var data = fs.readFileSync(__dirname + '/myfile.fnt');
+
+//the bitmap font data as an object
+var obj = bmfont2json(data);
+
+//we can stringify it if we want...
+var json = JSON.stingify( obj );
 ```
 
-
-
-The function parses a string (or Node Buffer) that is either XML data (with a root <font> element), or TXT data (following [Bitmap Font spec](http://www.angelcode.com/products/bmfont/doc/file_format.html)).
+The function parses a string (or Node Buffer) that is either XML data (with a root `<font>` element), or TXT data (following [Bitmap Font spec](http://www.angelcode.com/products/bmfont/doc/file_format.html)).
 
 The output looks something like the following JSON. It tries to stay true to the BMFont spec.
 
