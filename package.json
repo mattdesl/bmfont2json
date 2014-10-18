@@ -9,7 +9,7 @@
   },
   "devDependencies": {},
   "bin": {
-    "bmfont2json": "./bin/bmfont2json"
+    "bmfont2json": "./bin/bmfont2json.js"
   },
   "scripts": {
     "test": "node test"

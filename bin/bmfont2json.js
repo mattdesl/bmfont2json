@@ -21,5 +21,5 @@ fs.readFile( argv._[0], function(err, data) {
 	var jsonOut = JSON.stringify(obj, undefined, argv.p ? 2 : undefined);
 
 	var writer = argv.o ? fs.createWriteStream(argv.o) : process.stdout;
-	writer.write(jsonOut+"\n");
+	writer.write(jsonOut+ (argv.p?'\n':''));
 })
