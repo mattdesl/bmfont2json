@@ -38,6 +38,8 @@ The output looks something like the following JSON. It tries to stay true to the
 }
 ```
 
+## spec
+
 See [here](https://github.com/mattdesl/bmfont2json/wiki/JsonSpec) for a more complete JSON output.
 
 ## command-line tool
