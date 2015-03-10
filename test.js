@@ -6,14 +6,18 @@ var paths = folders.map(function(dir) {
     return path.join(__dirname, 'test-files', dir, 'Nexa Light-32.fnt');
 });
 
-var assert = require('assert');
+var test = require('tape');
 var bmfont = require('./index');
 
-paths.forEach(function(p) {
-    var f = fs.readFileSync(p);
+test('should parse fonts', function(t) {
+  paths.forEach(function(p) {
+      var f = fs.readFileSync(p);
 
-    var result = bmfont(f);
-    assert(result.info.face === 'Nexa Light', 'face parsed');
-    assert(result.chars.length === 96, 'chars parsed');
-    assert(result.kernings.length === 487, 'kernings parsed');
+      var result = bmfont(f);
+      t.equal(result.info.face, 'Nexa Light', 'face parsed');
+      t.equal(result.chars.length, 96, 'chars parsed');
+      t.equal(result.kernings.length, 487, 'kernings parsed');
+  });
+  
+  t.end();
 });

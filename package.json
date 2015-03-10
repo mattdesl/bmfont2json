@@ -4,10 +4,13 @@
   "description": "converts BMFont TXT and XML files to JSON",
   "main": "index.js",
   "dependencies": {
+    "parse-bmfont-ascii": "^1.0.0",
     "xml2js": "~0.4.3",
     "yargs": "^1.2.2"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "tape": "^3.5.0"
+  },
   "bin": {
     "bmfont2json": "./bin/bmfont2json.js"
   },
