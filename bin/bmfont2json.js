@@ -9,7 +9,7 @@ var argv = require('yargs')
 				.demand(1)
 				.argv;
 
-var parse = require('../index');
+var parse = require('../');
 var fs = require('fs');
 
 fs.readFile( argv._[0], function(err, data) {
