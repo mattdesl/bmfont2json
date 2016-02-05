@@ -1,21 +1,19 @@
-'use strict';
+var TXT = 'txt',
+    XML = 'xml';
 
-const parseAscii = require('parse-bmfont-ascii');
-const parseXML = require('parse-bmfont-xml');
-
-const TXT = 'txt';
-const XML = 'xml';
+var parseAscii = require('parse-bmfont-ascii');
+var parseXML = require('parse-bmfont-xml');
 
 /**
  * Parses a string (or Node Buffer) that is either XML data (with a root <font> element),
  * or TXT data (following Bitmap Font spec: http://www.angelcode.com/products/bmfont/doc/file_format.html).
  *
  * The output looks something like the following JSON. It tries to stay true to the BMFont spec.
- *
+ * 
  * ```json
  * {
  *      pages: [
- *          "sheet_0.png",
+ *          "sheet_0.png", 
  *          "sheet_1.png"
  *      ],
  *      chars: [
@@ -38,27 +36,28 @@ const XML = 'xml';
  */
 function parse(data, format) {
     if (!data)
-        throw "No data provided";
+        throw "no data provided";
 
     data = data.toString().trim();
-
+    
     if (!format) {
         if (data.substring(0,4) === 'info')
             format = TXT;
         else if (data.charAt(0) === '<')
             format = XML;
         else
-            throw "Malformed .xml/.txt bitmap font file";
+            throw "malformed XML/TXT bitmap font file";
     }
-
+    
     if (format !== XML && format !== TXT)
-        throw "Only .xml and .txt formats are currently supported";
-
+        throw "only xml and txt formats are currently supported";
+    
     if (format === TXT) {
         return parseAscii(data);
     } else {
         return parseXML(data);
     }
 }
+
 
 module.exports = parse;

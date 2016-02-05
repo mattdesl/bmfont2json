@@ -1,44 +1,42 @@
 {
-	"name": "bmfont2json",
-	"version": "0.2.0",
-	"description": "Converts BMFont .txt and .xml files to JSON",
-	"main": "index.js",
-	"dependencies": {
-		"parse-bmfont-ascii": "^1.0.0",
-		"parse-bmfont-xml": "^1.0.1",
-		"yargs": "^1.2.2"
-	},
-	"devDependencies": {
-		"tape": "^3.5.0"
-	},
-	"bin": {
-		"bmfont2json": "./bin/bmfont2json.js"
-	},
-	"scripts": {
-		"test": "node test"
-	},
-	"author": "Matt DesLauriers",
-	"license": "MIT",
-	"repository": {
-		"type": "git",
-		"url": "https://github.com/mattdesl/bmfont2json.git"
-	},
-	"keywords": [
-		"bmfont",
-		"bitmap",
-		"font",
-		"fonts",
-		"json",
-		"xml",
-		"txt",
-		"convert",
-		"angelcode",
-		"angel",
-		"code",
-		"text"
-	],
-	"bugs": {
-		"url": "https://github.com/mattdesl/bmfont2json/issues"
-	},
-	"homepage": "https://github.com/mattdesl/bmfont2json"
+  "name": "bmfont2json",
+  "version": "0.1.9",
+  "description": "converts BMFont TXT and XML files to JSON",
+  "main": "index.js",
+  "dependencies": {
+    "parse-bmfont-ascii": "^1.0.0",
+    "parse-bmfont-xml": "^1.0.1",
+    "yargs": "^1.2.2"
+  },
+  "devDependencies": {
+    "tape": "^3.5.0"
+  },
+  "bin": {
+    "bmfont2json": "./bin/bmfont2json.js"
+  },
+  "scripts": {
+    "test": "node test"
+  },
+  "author": "Matt DesLauriers",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mattdesl/bmfont2json.git"
+  },
+  "keywords": [
+    "bmfont",
+    "bitmap",
+    "fonts",
+    "json",
+    "xml",
+    "txt",
+    "angelcode",
+    "angel",
+    "code",
+    "text"
+  ],
+  "bugs": {
+    "url": "https://github.com/mattdesl/bmfont2json/issues"
+  },
+  "homepage": "https://github.com/mattdesl/bmfont2json"
 }
